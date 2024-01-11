@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    android:background="@drawable/round_corner"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtPartOfSpeechWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noun"
+        android:textColor="#FF5722"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Definition : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDefinitions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 definition \n\n 2 definition \n\n 3 definiton"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Synonyms : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSynonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aaa, bbb, ccc, ddd"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Antonyms : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAntonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aaa, bbb, ccc, ddd"
+        android:textSize="16sp" />
+
+</LinearLayout>
